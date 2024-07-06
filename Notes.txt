@@ -1,0 +1,25 @@
+1 - what is the difference between  (user - session - temp - bot) ? 
+
+
+User: This context typically holds information specific to the user interacting with the bot. It can include details such as the user's name, preferences, history of interactions, or any other data related to the user.
+
+Session: The session context refers to data that persists throughout the duration of a single session or conversation between the user and the bot. This can include session-specific variables or information that needs to be maintained only for the duration of the current interaction.
+
+Temp: The temp context is used for storing temporary or transient data that is relevant only for a short period of time or for a specific action within the conversation flow. This data is typically cleared or reset after its purpose is served.
+
+Bot: The bot context contains information related to the bot itself, such as configuration settings, global variables, or any other data that is relevant to the behavior or functionality of the bot across all interactions.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2 - when u deploying at anthor server we will get this link of this server and put it external Url at >>> botpress.config.json 
+then Restart server 
+
+do the same thing by going to docker compose community then go to the environment and change the external URL and restart the docker compose again 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3 - Carousels >>>> is a multiple Cards with slider 
+4 - dropdown >>>> is like an list of options or any thing you want to customize
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
